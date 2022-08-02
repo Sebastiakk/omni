@@ -1,0 +1,7 @@
+<div class='input-group mb-3'>
+  <input [formControl]='searchValue' type='search' class='form-control' placeholder='Que carro quieres ?'
+         aria-label='Que carro quieres ?' (keyup)='search()'>
+  <div class='input-group-append'>
+    <button class='btn btn-outline-secondary' type='button' (click)='search()'>Buscar</button>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class='portfolio-item'>
+  <a class='portfolio-link' (click)='viewDetail()'>
+    <div class='portfolio-hover'>
+      <div class='portfolio-hover-content'><i class='fas fa-plus fa-3x'></i></div>
+    </div>
+    <img class='img-fluid' [src]='product.image' [alt]='product.name + product.model' />
+  </a>
+  <div class='portfolio-caption'>
+    <div class='portfolio-caption-heading'>{{ product.brand + " " + product.name | titlecase}} {{ product.model }}</div>
+    <div class='portfolio-caption-subheading text-muted'>{{ product.price | currency}}</div>
+  </div>
+</div>

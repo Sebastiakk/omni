@@ -1,0 +1,19 @@
+<div>
+  <app-carousel></app-carousel>
+  <section class='page-section bg-light'>
+    <div class='container'>
+      <div class='text-center'>
+        <h2 class='section-heading text-uppercase'>Mas vendidos</h2>
+        <app-search-bar (onSearch)='setFilterCar($event)'></app-search-bar>
+      </div>
+      <div class='row' *ngIf='(cars | filterData: filterCar)?.length>0; else elseBlock'>
+        <div class='col-lg-4 col-sm-6 mb-4' *ngFor='let car of cars | filterData: filterCar'>
+          <app-product-card [product]='car'></app-product-card>
+        </div>
+      </div>
+      <ng-template #elseBlock>
+        Lo sentimos, <b>{{filterCar}}</b> no lo hemos encontrado
+      </ng-template>
+    </div>
+  </section>
+</div>
