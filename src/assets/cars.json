@@ -1,0 +1,57 @@
+[
+  {
+    "image": "https://cdn2.rcstatic.com/images/car_images/web/chevrolet/spark_lrg.jpg",
+    "brand": "Chevrolet",
+    "name": "Spark",
+    "price": 1000,
+    "model": 2020,
+    "typeFuel": "Gasolina",
+    "displacement": 1200
+  },
+  {
+    "model": 2020,
+    "brand": "Renault",
+    "name": "Logan",
+    "image": "https://cdn2.rcstatic.com/images/car_images/web/renault/logan_lrg.jpg",
+    "price": 1000,
+    "typeFuel": "Gasolina",
+    "displacement": 1200
+  },
+  {
+    "model": 2020,
+    "brand": "Mazda",
+    "name": "3",
+    "image": "https://cdn2.rcstatic.com/images/car_images/web/mazda/3_lrg.jpg",
+    "price": 4000,
+    "typeFuel": "Gasolina",
+    "displacement": 1200
+  },
+  {
+    "model": 2020,
+    "brand": "Kia",
+    "name": "picanto",
+    "image": "https://cdn2.rcstatic.com/images/car_images/new_images/kia/picanto_5_door_lrg.jpg",
+    "price": 1000,
+    "typeFuel": "Gasolina",
+    "displacement": 1000
+  },
+  {
+    "model": 2020,
+    "brand": "Chevrolet",
+    "name": "Tracker",
+    "category": "SUV",
+    "image": "https://cdn2.rcstatic.com/images/car_images/new_images/chevrolet/tracker_lrg.jpg",
+    "price": 2000,
+    "typeFuel": "DIESEL",
+    "displacement": 1200
+  },
+  {
+    "model": 2020,
+    "brand": "Renault",
+    "name": "Captur",
+    "image": "https://cdn2.rcstatic.com/images/car_images/web/renault/captur_lrg.jpg",
+    "price": 5000,
+    "typeFuel": "DIESEL",
+    "displacement": 2000
+  }
+]
